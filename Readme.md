@@ -15,7 +15,37 @@ $ npm install
 ```
 
 ## Usage
-Work in Progress...
+a) for dev build
+```
+$ cd my-project
+$ npm run dev
+```
+
+b) for prod build
+
+```
+$ cd my-project
+$ npm run build 
+```
+
+Install [http-server](https://github.com/indexzero/http-server)
+
+A command-line http server
+```
+$ npm install -g http-server
+```
+then 
+
+```
+$ cd my-project\dist
+http-server
+```
+
+- Go to localhost
+
+a) for dev build: [localhost:8000](http://localhost:8000/)
+
+b) for prod build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
